@@ -1,0 +1,53 @@
+.project-card{
+    height:400px;
+    width:600px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* background-image: linear-gradient(#bcf7db,#30ec9e); */
+    /* background-image: url("https://res.cloudinary.com/df9k2fdct/image/upload/v1746517175/lflba7kczpxkb3ulpqee.jpg"); */
+    background-size:cover;
+    text-decoration:none;
+    border-bottom: 5px solid #161616;
+    border-top: 1px solid #313030;
+    margin:10px;
+
+
+}
+
+.project-name{
+    background-color: #ffffff;
+    min-width:30%;
+    text-align: end;
+    font-size: 18px;
+    font-family: 'Roboto';
+    border-radius: 25px;
+    color:rgb(0, 207, 155);
+    text-decoration:none;
+    margin-right: 10px ;
+    padding:10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px;
+    font-weight: 600;
+}
+
+.project-links{
+    background-color: #d1d1d138;
+    align-self: flex-start;
+    padding:10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius:10px;
+    border-bottom: solid 1px #e3f8f8;
+    border-right: solid 1px #e3f8f8;
+
+}
+
+.external-link{
+    text-decoration: none;
+    color:#ffffff;
+}
+.external-link:hover{
+    color:blue;
+}

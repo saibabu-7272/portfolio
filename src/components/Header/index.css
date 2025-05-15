@@ -1,0 +1,79 @@
+.header{
+    height:60px;
+    box-shadow: 0px 0px 5px;
+    padding-top: 1px;
+    padding-left:20px;
+    padding-right:20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    position:fixed;
+    box-sizing: border-box;
+    width:100%;
+}
+.website-title-container{
+    display:flex;
+    align-items: center;
+}
+.website-icon{
+    font-size:40px;
+    color:rgb(5, 32, 1);
+}
+
+.website-name{
+    /* color: rgb(247, 250, 248); */
+    color:rgb(5, 32, 1);
+    font-family: 'Arial','Courier New','Lucida Handwriting','Brush Script MT','Arial Narrow Bold', sans-serif;
+    /* background-color: rgb(0, 0, 0); */
+    border-radius: 30px;
+    font-size: 18px;
+}
+.link{
+    text-decoration: none;
+}
+
+.tabs-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    height:40px;
+    width:300px;
+    border-radius: 20px;
+}
+.tab{
+    
+    font-size: 16px;
+    font-weight: 500;
+    color:#ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.icon-tabs-container{
+    display: none;
+    width:150px;
+    background-color: black;
+}
+.icon{
+    font-size:22px;
+    color:#ffffff;
+}
+
+
+@media (max-width: 676px ){
+    .tabs-container{
+        display: none;
+    }
+    .icon-tabs-container{
+        display: flex;
+        
+    }
+    .tab{
+        color:red;
+        font-size: small;
+    }
+    
+
+}
+

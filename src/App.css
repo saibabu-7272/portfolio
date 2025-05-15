@@ -6,6 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+*{
+  box-sizing: border-box;
+  font-family: 'Arial';
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
